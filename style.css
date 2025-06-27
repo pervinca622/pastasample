@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(250, 246, 228);
+    background-image: url("image/spaghetti-1932466_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+
+}
+
+.flex-container {
+  width: 600px;
+  margin: 50px;
+  background-color: #f3f8f8;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.flex-item {
+  color: #fff;
+  background-color: #275a0a;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px 50px 30px;
+}
+
+h1{
+    color:#f8faf9;
+    background-color: rgb(25, 155, 140);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 10px #6c6c6c;
+    font-family: "ヒラギノ明朝 ProN", serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+p{
+    font-size: 15px;
+    font-style: italic;
+
+}
+h2{
+    color:#ecb316;
+}
